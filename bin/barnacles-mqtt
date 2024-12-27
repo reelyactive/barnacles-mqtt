@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const BarnaclesMqtt = require('../lib/barnaclesmqtt.js');
+
+
+let barnaclesMqtt = new BarnaclesMqtt({ printErrors: true });
+
+
+console.log('barnacles-mqtt instantiation test');
